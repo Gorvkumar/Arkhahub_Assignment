@@ -30,6 +30,11 @@ app.use(express.json());
 // Routes
 app.use('/api', apiRoutes);
 
+app.get('/', (req, res) => {
+  res.send('EnergyGrid Backend is running 🚀');
+});
+
+
 // Health check
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', message: 'EnergyGrid API Server is running' });
