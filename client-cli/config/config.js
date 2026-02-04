@@ -1,0 +1,8 @@
+module.exports = {
+  API_URL: 'http://localhost:3000/device/real/query',
+  TOKEN: 'interview_token_123',
+  RATE_LIMIT_MS: 1000,
+  BATCH_SIZE: 10,
+  TOTAL_DEVICES: 500,
+  MAX_RETRIES: 3
+};

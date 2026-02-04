@@ -1,0 +1,12 @@
+{
+  "name": "energygrid-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for EnergyGrid data aggregation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["energygrid", "solar", "cli"],
+  "author": "",
+  "license": "MIT"
+}

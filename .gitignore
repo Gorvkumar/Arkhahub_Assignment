@@ -1,0 +1,14 @@
+node_modules/
+results.json
+*.log
+.DS_Store
+.env
+.env.local
+build/
+dist/
+coverage/
+.vscode/
+
+# Keep production env files for deployment
+!.env.production
+!.env.example
