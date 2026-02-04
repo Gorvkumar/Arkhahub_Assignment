@@ -8,5 +8,11 @@
   },
   "keywords": ["energygrid", "solar", "cli"],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
